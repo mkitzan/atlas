@@ -1,1 +1,3 @@
-remote_theme:"dracula/gh-pages"
+remote_theme: "dracula/gh-pages"
+title: Atlas Framework
+description: A data-driven graphics development framework
