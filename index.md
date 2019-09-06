@@ -6,7 +6,9 @@
 1. [What is Atlas](#intro)
 2. [Dependencies](#dependencies)
 3. [Contributing](#contributing)
-4. [License](#License)
+4. [License](#license)
+5. [Developer's Manual](sections/development.md)
+6. [FAQ](sections/faq.md)
 
 ## What is Atlas? <a name="intro"></a>
 
