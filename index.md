@@ -1,11 +1,14 @@
-# Atlas v3.0
-
-> A data-driven graphics development framework.
-
 [![Generic badge](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Generic badge](https://img.shields.io/badge/Language-C++17-red.svg)](https://en.wikipedia.org/wiki/C%2B%2B17)
 
-## What is Atlas?
+## Contents
+
+1. [What is Atlas](#intro)
+2. [Dependencies](#dependencies)
+3. [Contributing](#contributing)
+4. [License](#License)
+
+## What is Atlas? <a name="intro"></a>
 
 Atlas is the result of my years learning graphics and GPU programming.
 Initially, it started as a loose collection of wrappers for common OpenGL
@@ -31,7 +34,7 @@ The key features of Atlas are as follows:
   include system for GLSL source files that emulates as closely as possible the
   C++ inclusion system.
 
-## Dependencies
+## Dependencies <a name="dependencies"></a>
 
 The following are **core** requirements of Atlas:
 
@@ -68,23 +71,16 @@ The dependencies per module are as follows:
 | hlr | core |
 | utils | math, FMT, tinyobjloader, stb (included) | 
 
-## Contributing
+## Contributing <a name="contributing"></a>
 
 For the time-being, pull requests are not accepted. This is due to the fact that
 Atlas is undergoing a major redesign. I will change this note when a more stable
 state has been attained.
 
-## License
+## License <a name="license"></a>
 
 Atlas is published under the MIT license and can be viewed
 [here](https://github.com/marovira/atlas/blob/master/LICENSE). Atlas also
 bundles third-party code that is distributed under their corresponding licenses
 which can be seen
 [here](https://github.com/marovira/atlas/blob/master/LICENSE-3RD-PARTY).
-
-## Documentation
-
-The documentation for Atlas is currently being re-written. Currently, Atlas
-ships with some ready-made examples of simple cases contained under the
-`examples` folder. For more help, including tutorials, instructions, etc. see
-[here](https://marovira.github.io/atlas/).
