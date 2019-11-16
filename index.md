@@ -1,5 +1,7 @@
 [![Generic badge](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Generic badge](https://img.shields.io/badge/Language-C++17-red.svg)](https://en.wikipedia.org/wiki/C%2B%2B17)
+[![Build status](https://ci.appveyor.com/api/projects/status/anqkem3w8yq96wru?svg=true)](https://ci.appveyor.com/project/marovira/atlas)
+[![Build Status](https://travis-ci.org/marovira/atlas.svg?branch=master)](https://travis-ci.org/marovira/atlas)
 
 ## Contents
 
@@ -44,15 +46,15 @@ The following are **core** requirements of Atlas:
 * CMake 3.12+,
 * Python 2.7+ or 3.x.
 
-Atlas supports the following C++17 compliant compilers:
+Atlas supports the following platforms and compilers:
 
-| Compiler | Version |
-| -------- | ------- |
-| MSVC | 16.1 |
-| GCC | 9.1 |
-| LLVM Clang | 8.0 |
+| Platform (Compiler) | Version |
+| ------------------- | ------- |
+| Windows (MSVC) | 19.23 |
+| Linux (GCC) | 7.4.0 |
+| Linux (LLVM Clang) | 7.0 |
 
-Please note that OSX is **not** supported.
+Please note that macOS is **not** supported.
 
 In addition, Atlas depends on the following libraries:
 
